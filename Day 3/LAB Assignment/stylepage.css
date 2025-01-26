@@ -1,0 +1,58 @@
+main .container .jumbotron{
+  background-color: royalblue;
+  display: flexbox;
+}
+/*Nav*/
+nav.navbar{
+  background-color: royalblue;
+}
+/*Gallery*/
+main #album #photo img{
+  width: 400px;
+  height: 400px;
+
+}
+main #album{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  align-items: center;
+
+
+}
+main #album li{
+  grid-template-columns: repeat(3,1fr);
+}
+/*Cards*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 2%;
+    text-align: center;
+    width: 25%;
+
+  }
+  .title {
+    color: black;
+    font-size: 18px;
+  }
+
+.card-gallery {
+  display: flex;
+  margin: 20px;
+
+}
+/*Form*/
+
+footer{
+    height: 40px;
+    background-color: royalblue;
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(211, 218, 240);
+}
